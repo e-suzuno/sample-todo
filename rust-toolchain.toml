@@ -1,0 +1,5 @@
+[toolchain]
+# gpui の固定リビジョン(d989c7c)が要求するツールチェイン。
+# profiler.rs が安定化済み機能 cold_path (Rust 1.95 で安定) を使用するため 1.95.0 を使う。
+channel = "1.95.0"
+profile = "minimal"
