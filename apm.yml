@@ -1,0 +1,33 @@
+name: my-rust-desktop-app # ← 実プロジェクト名に変更してください
+version: 1.0.0
+description: APM project for sample-todo
+dependencies:
+    apm:
+        # --- コア：Rust デスクトップ実装パターン ---
+        - nstg/dev-claude-skills/.apm/skills/rust-desktop-patterns#v3.0.0
+
+        # --- コア：Git ワークフロー ---
+        - nstg/dev-claude-skills/.apm/skills/git-setup#v3.0.0
+        - nstg/dev-claude-skills/.apm/skills/git-commitmsg#v3.0.0
+        - nstg/dev-claude-skills/.apm/skills/git-pull-request#v3.0.0
+
+        # --- TDD ワークフロー ---
+        - nstg/dev-claude-skills/.apm/skills/tdd-workflow#v3.0.0
+
+        # --- タスク管理オーケストレーション ---
+        - nstg/dev-claude-skills/.apm/skills/project-planning#v3.0.0
+        - nstg/dev-claude-skills/.apm/skills/skill-router#v3.0.0
+
+        # --- 設計ドキュメント整備（Docusaurus）---
+        - nstg/dev-claude-skills/.apm/skills/docusaurus-docs#v3.0.0
+        - nstg/dev-claude-skills/.apm/agents/docusaurus-writer.agent.md#v3.0.0
+        - nstg/dev-claude-skills/.apm/agents/docusaurus-reviewer.agent.md#v3.0.0
+
+        # --- コード/セキュリティレビュー Agent ---
+        - nstg/dev-claude-skills/.apm/agents/security-reviewer.agent.md#v3.0.0
+        - nstg/dev-claude-skills/.apm/agents/engineering-code-reviewer.agent.md#v3.0.0
+
+        # --- 内部調査 Agent（project-planning の委任先として利用）---
+        - nstg/dev-claude-skills/.apm/agents/researcher.agent.md#v3.0.0
+includes: auto
+scripts: {}

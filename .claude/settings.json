@@ -1,0 +1,26 @@
+{
+    "language": "ja",
+    "additionalDirectories": ["./*"],
+    "permissions": {
+        "allow": [
+            "Bash(node --version:*)",
+            "Bash(npm --version:*)",
+            "Bash(touch *)",
+            "Bash(ls:*)",
+            "Bash(cd:*)",
+            "Bash(gh --version)",
+            "Bash(gh pr:*)",
+            "Bash(git add *)",
+            "Bash(git commit *)",
+            "Bash(git branch *)",
+            "Bash(git checkout *)",
+            "Bash(git status *)",
+            "Bash(git log *)",
+            "Bash(git diff *)",
+            "Bash(git fetch *)",
+            "Bash(git push*:!*main*)",
+            "Bash(mkdir -p *)"
+        ],
+        "deny": ["Bash(git reset *)", "Bash(git rebase *)"]
+    }
+}

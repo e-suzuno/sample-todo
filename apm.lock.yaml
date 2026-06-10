@@ -1,0 +1,144 @@
+lockfile_version: '1'
+generated_at: '2026-06-10T04:45:32.845083+00:00'
+apm_version: 0.10.0
+dependencies:
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/agents/docusaurus-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .claude/agents/docusaurus-reviewer.md
+  deployed_file_hashes:
+    .claude/agents/docusaurus-reviewer.md: sha256:9faf474bc1e950f0963b526b415ea0e1e4b451e08847c199d4e92eb4985dc583
+  content_hash: sha256:6d93978ce7c1fa0af861afdeb94262e7e82c27cdf0afc5eb2e50b98d0a34a031
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/agents/docusaurus-writer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .claude/agents/docusaurus-writer.md
+  deployed_file_hashes:
+    .claude/agents/docusaurus-writer.md: sha256:ea7f2356a5b517f4060fe3d849511e703634eab73a000b25989af83c6cb7c04d
+  content_hash: sha256:e5600d9f05b48e5747c7ba2f2083b4812305fd391a2a71cc8f98f2af0f09d937
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/agents/engineering-code-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .claude/agents/engineering-code-reviewer.md
+  deployed_file_hashes:
+    .claude/agents/engineering-code-reviewer.md: sha256:3a2cdb67de6886b1511895a45440af6fd937a2c2ca8fcfe3b8e2f270cf2086e4
+  content_hash: sha256:746fb3a4ee732d5e63426ccfcd06424e6be02c66c7104bb7d6a6e6adb1d8d071
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/agents/researcher.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .claude/agents/researcher.md
+  deployed_file_hashes:
+    .claude/agents/researcher.md: sha256:5cad348583bb8d91326d87c119f09754b91c6d4cdc4935748cb3be798e657132
+  content_hash: sha256:61edecf3df735d1ba0779b038b94e82c0fbbbac376aad25d833741ef1f79d278
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/agents/security-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .claude/agents/security-reviewer.md
+  deployed_file_hashes:
+    .claude/agents/security-reviewer.md: sha256:8daeebbe848ab30cd093ae0362549ebc5f8c70a5135346b3eaf19a619d2167ed
+  content_hash: sha256:94d9836c473321cbbff44ec22755d152c2439b26ad84e621b5a7df13c8f33eba
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/skills/docusaurus-docs
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/docusaurus-docs
+  content_hash: sha256:da30ad41a67f1fa216c683a8b732ae21d3f55399903dd60bdc697d19a6b0ef50
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/skills/git-commitmsg
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/git-commitmsg
+  content_hash: sha256:77cf8ff6f913a7edbd6dcbd4fc0e9b94cefd18b6c9e481280f5a57d298690a69
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/skills/git-pull-request
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/git-pull-request
+  content_hash: sha256:13f6eaa31cbf0fb90d51f791c8166640e4ce6ece9ef0c93c3a2d1e494191761c
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/skills/git-setup
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/git-setup
+  content_hash: sha256:ab32fcdafa3d7accc9f968bbfb349dfccee332bab532d091aa296e643c74959b
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/skills/project-planning
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/project-planning
+  content_hash: sha256:2cb8810a2fef5f3dbc5069736ed346d32067b310ab45f08ec86c067fa2f3759d
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/skills/rust-desktop-patterns
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/rust-desktop-patterns
+  content_hash: sha256:2c1ea462119942c3a3efc144361bd811d4baa85d570f98af5376ab8917b9acb2
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/skills/skill-router
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/skill-router
+  content_hash: sha256:d8fd31791e94ec94390dc30f6abd4f8e5f00b83068d29af0262364a0dd7764a1
+- repo_url: nstg/dev-claude-skills
+  host: github.com
+  resolved_commit: 6ef8101c3b6082675479830c214b85447ffae237
+  resolved_ref: v3.0.0
+  virtual_path: .apm/skills/tdd-workflow
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/tdd-workflow
+  content_hash: sha256:5e9f395e0c2b9bd3d04bf50849804ce8bfca21559a0c35eb972f586cd1461cf1
